@@ -29,23 +29,11 @@ function Login() {
                 <h1>
                     <FaSignInAlt /> Login
                 </h1>
-                <p>Please login to get started</p>
+                <p>Please login and start setting goals</p>
             </section>
             
             <section className='form'>
                 <form onSubmit={onSubmit}>
-                    <div className='form-group'>
-                        <input 
-                            type="text"
-                            className='form-control' 
-                            id='email' 
-                            name='email' 
-                            value={email} 
-                            placeholder='Enter your email' 
-                            onChange={onChange} 
-                            required
-                        />
-                    </div>
                     
                     <div className='form-group'>
                         <input 
